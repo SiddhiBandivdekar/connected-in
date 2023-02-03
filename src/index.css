@@ -1,6 +1,7 @@
 body {
   overflow-y: scroll;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 :root,
@@ -24,7 +25,6 @@ li,
 ul,
 html,
 label,
-nav,
 p,
 span,
 small {
