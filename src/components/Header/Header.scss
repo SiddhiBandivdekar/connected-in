@@ -76,6 +76,56 @@
         display: flex;
         flex-wrap: nowrap;
         list-style-type: none;
+        gap: 10px;
+
+        .active {
+          span:after {
+            content: "";
+            transform: scaleX(1);
+            border-bottom: 2px solid var(--white, #fff);
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            transition: transform 0.2s ease-in-out;
+            width: 100%;
+            border-color: rgba(0, 0, 0, 0.9);
+          }
+        }
+
+        .user {
+          color: rgb(145, 145, 232);
+          width: 18px;
+
+          span {
+            display: flex;
+            align-items: center;
+          }
+
+          &:hover {
+            .signOut {
+              align-items: center;
+              display: flex;
+              justify-content: center;
+            }
+          }
+          .signOut {
+            position: absolute;
+            top: 45px;
+            background: white;
+            border-radius: 0 0 5px 5px;
+            width: 100px;
+            height: 40px;
+            font-size: 16px;
+            transition-duration: 167ms;
+            text-align: center;
+            display: none;
+            color: #000;
+          }
+        }
+
+        .work {
+          padding-left: 55px;
+        }
 
         .navList {
           display: flex;

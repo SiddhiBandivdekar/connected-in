@@ -66,6 +66,9 @@ const Header = () => {
                     <ArrowDropDownIcon />
                   </span>
                 </a>
+                <div className="signOut">
+                  <a>Sign Out</a>
+                </div>
               </li>
               <li className="work navList">
                 <a>
