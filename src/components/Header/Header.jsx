@@ -9,15 +9,16 @@ import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import AppsIcon from "@mui/icons-material/Apps";
 import PersonPinIcon from "@mui/icons-material/PersonPin";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       <div className="header">
         <div className="header-content">
           <span className="header-logo">
             <a href="/home">
-              <img src="/images/header-logo.png" />
+              <img src="/images/header-logo.png" className="logo-image" />
             </a>
           </span>
           <div className="search">
@@ -77,6 +78,12 @@ const Header = () => {
                     Work
                     <ArrowDropDownIcon />
                   </span>
+                </a>
+              </li>
+              <li className="navList">
+                <a>
+                  <LocalMallIcon />
+                  <span>Post a job</span>
                 </a>
               </li>
             </ul>
