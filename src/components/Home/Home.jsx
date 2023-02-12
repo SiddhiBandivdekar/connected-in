@@ -6,7 +6,7 @@ import RightSide from "./RightSide/RightSide";
 
 const Home = (props) => {
   return (
-    <div className="container">
+    <div className="home">
       <div className="content">
         <div className="layout">
           <div className="left">
