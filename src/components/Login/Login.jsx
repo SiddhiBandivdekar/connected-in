@@ -3,7 +3,7 @@ import "./Login.scss";
 
 const Login = () => {
   return (
-    <div className="container">
+    <div className="login">
       <nav>
         <a href="/">
           <img src="/images/loginLogo.png" alt="" />
