@@ -83,6 +83,7 @@ const Main = (props) => {
               <a>2 comments</a>
             </li>
           </ul>
+          <div className="socialActions">
           <button>
           <ThumbUpIcon />
             <span>Like</span>
@@ -99,6 +100,7 @@ const Main = (props) => {
             <SendIcon />
             <span>Send</span>
           </button>
+          </div>
         </div>
       </div>
     </div>
